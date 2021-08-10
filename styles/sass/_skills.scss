@@ -1,0 +1,31 @@
+.skills {
+  background-color: $pink;
+}
+
+.skills ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 100px;
+  text-align: center;
+}
+
+.skills ul li {
+  width: calc(100% / 4 - 10px);
+  color: $white;
+  margin-bottom: 50px;
+}
+
+.skills ul li i {
+  font-size: 3.5rem;
+}
+
+.skills ul li p {
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.skills p {
+  text-align: center;
+}
+

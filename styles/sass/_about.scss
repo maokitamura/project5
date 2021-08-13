@@ -7,15 +7,17 @@
 
 .about ul {
   display: flex;
+  justify-content: center;
   margin-top: 80px;
+  animation: zoomIn 0.8s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
 }
 
 .about ul li {
-  width: 50%;
+  width: 42%;
 }
 
 .about ul li img {
-  width: 70%;
+  width: 90%;
 }
 
 .text {
@@ -27,11 +29,30 @@
   margin-top: 50px;
 }
 
-h4 {
-  font-size: 2.5rem;
+.text h4 {
+  font-size: 3rem;
+  margin-top: 0;
+
 }
 
-.about p {
+.text p {
+  font-size: 1.3rem;
   margin-top: 60px;
+  letter-spacing: 1px;
+  line-height: 1.6;
 } 
 
+.fadeInRight {
+  transform:translateX(-25px);
+}
+
+.animated {
+  opacity: 0;
+  visibility: hidden;
+  transition:800ms cubic-bezier(.23,1,.32,1);
+  &.inview {
+    opacity: 1;
+    visibility: visible;
+    transform:translate(0);
+  }
+}

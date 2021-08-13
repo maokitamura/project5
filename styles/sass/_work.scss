@@ -1,3 +1,59 @@
 .work {
   background-color: $peach;
 }
+
+.pro-work {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pro-work img {
+  width: 100%;
+  border: 3px solid grey;
+}
+
+h4 {
+  color: $yellow;
+  font-size: 3rem;
+}
+
+.pro-work li {
+  margin-top: 70px;
+  border: 5px solid $white;
+  box-shadow: 1px 1px 5px 5px $white;
+  border-radius: 5px;
+  padding: 20px 30px;
+  width: 48%;
+  margin: 70px auto 0 auto;
+  // box-shadow: 0px 0px 5px;
+}
+
+.pro-text p {
+  margin: 10px 0;
+  line-height: 1.4;
+}  
+
+.pro-text a {
+  color: $pink;
+  background-color: $white;
+  text-decoration: none;
+  padding: 7px 10px;
+  margin-right: 10px;
+}
+
+.pro-text a:hover,
+.pro-text a:focus {
+  color: white;
+  background-color: $pink;
+}
+
+.work .arrow {
+  margin-top: 50px;
+}
+
+
+.discription {
+  font-weight: 700;
+  color: $pink;
+}
+

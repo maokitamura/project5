@@ -9,8 +9,15 @@
   margin-top: 50px;
 }
 
+.contact h4 {
+  color: $white;
+}
+
 .contact-flex ul {
   width: 45%;
+    li {
+      text-align: center;
+    }
 }
 
 form {
@@ -33,3 +40,30 @@ textarea {
 .contact .arrow {
   padding-top: 70px;
 }
+
+button {
+  color: $white;
+  background-color: $peach;
+  border: none;
+  padding: 10px 20px;
+
+    &:hover {
+      color: $peach;
+      background-color: $white;
+    }
+}
+
+.contact-mini {
+  font-size: 9rem;
+  // position: relative;
+  // right: -30%;
+}
+
+.info {
+    margin-top: 15px;
+      a {
+        font-size: 3rem;
+        margin: 0 15px 0 0;
+      }
+}
+

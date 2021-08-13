@@ -21,6 +21,20 @@
     <div class="wrapper">
       <nav>
         <div class="logo">MK</div>
+
+      <!-- humburger menu -->
+      <div id="burger-menu" class="burger-menu">
+        <span></span>
+      </div>
+          <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      <!-- humburger end -->
+
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -31,7 +45,10 @@
       </nav>
       <h1>Mao Kitamura</h1>
       <h2>Front Web Developer</h2>
-      <p class="arrow"><i class="fas fa-arrow-down"></i></p>
+      <p class="flower large">❁</p>
+      <!-- <p class="flower medium">❁</p> -->
+      <p class="flower small">❁</p>
+      <p class="arrow"><a href="#about"><i class="fas fa-arrow-down"></i></a></p>
     </div>
   </header>
 
@@ -45,11 +62,11 @@
             <img src="./assets/IMG_1635.jpg" alt="mao's headshot">
           </li>
           <li class="text">
-            <h4>Hi, I'm Mao.</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aliquam consequuntur inventore eaque unde omnis rem eos vel! Tempore atque velit ipsam quo provident totam commodi aliquam est corrupti dolor.</p>
+            <h4>Konnichiwa</h4>
+            <p>Hi, My name is Mao. I'm a Front wed developer with a bockground in hospitality. I grew up in Japan and came to Toronto 5 years ago. I have pattion for  </p>
           </li>
         </ul>
-        <p class="arrow"><i class="fas fa-arrow-down"></i></p>
+        <p class="arrow"><a href="#skills"><i class="fas fa-arrow-down"></i></a></p>
       </div>
       </section>
 
@@ -107,7 +124,7 @@
             <p>rest api</p>
           </li>
         </ul>
-        <p class="arrow"><i class="fas fa-arrow-down"></i></p>
+        <p class="arrow"><a href="#work"><i class="fas fa-arrow-down"></i></a></p>
       </div>
     </section>
 
@@ -115,7 +132,43 @@
     <section class="work" id="work">
       <div class="wrapper">
         <h3>work</h3>
-        <p class="arrow"><i class="fas fa-arrow-down"></i></p>
+        <ul class="pro-work">
+          <li>
+            <img src="./assets/showmak.png" alt="">
+            <div class="pro-text">
+              <h4>Showmak</h4>
+              <p class="discription">HTML CSS JAVASCRIPT REACT FIREBASE API</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tempore maxime blanditiis quas alias accusantium nobis, rerum iusto voluptates debitis ipsa voluptas corporis, quod saepe voluptatibus ex cumque explicabo illo?</p>
+              <a href="">Live</a>
+              <a href="">GitHub</a>
+          <li>
+            <img src="./assets/Brewery.png" alt="">
+            <div class="pro-text">
+              <h4>Brewery Finder</h4>
+              <p class="discription">HTML CSS JAVASCRIPT FIREBASE API</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tempore maxime blanditiis quas alias accusantium nobis, rerum iusto voluptates debitis ipsa voluptas corporis, quod saepe voluptatibus ex cumque explicabo illo?</p>
+              <a href="">Live</a>
+              <a href="">GitHub</a>
+          <li>
+            <img src="./assets/linkd.png" alt="">
+            <div class="pro-text">
+              <h4>Link'd</h4>
+              <p class="discription">HTML CSS JAVASCRIPT REACT FIREBASE</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tempore maxime blanditiis quas alias accusantium nobis, rerum iusto voluptates debitis ipsa voluptas corporis, quod saepe voluptatibus ex cumque explicabo illo?</p>
+              <a href="">Live</a>
+              <a href="">GitHub</a>
+          <li>
+            <img src="./assets/mindnsoul.png" alt="">
+            <div class="pro-text">
+              <h4>Mindn'Soul</h4>
+              <p class="discription">HTML CSS JAVASCRIPT</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tempore maxime blanditiis quas alias accusantium nobis, rerum iusto voluptates debitis ipsa voluptas corporis, quod saepe voluptatibus ex cumque explicabo illo?</p>
+              <a href="">Live</a>
+              <a href="">GitHub</a>
+            </div>
+          </li>
+        </ul>
+        <p class="arrow"><a href="#contact"><i class="fas fa-arrow-down"></i></a></p>
       </div>
     </section>
 
@@ -129,23 +182,28 @@
               <h4>Lets have a chat!</h4>
             </li>
             <li>
-              <img src="" alt="">
+              <p class="flower contact-mini">❁</p>
             </li>
             <li>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti perspiciatis, nobis distinctio culpa earum molestias beatae sequi praesentium magnam laudantium provident sed reprehenderit placeat a rem. Consequuntur quidem aliquid ullam.</p>
+              <p>Thank you for visiting my portfolio. Feel free to get in touch with me. I am always open to discussing new projects or jobs.  </p>
+            </li>
+            <li class="info">
+              <a href="https://www.linkedin.com/in/maokitamura/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/maokitamura"><i class="fab fa-github"></i></a>
+              <a href="maokitty23k@gmail.com"><i class="far fa-envelope"></i></a>
             </li>
           </ul>
-          <form action="">
+          <form action="https://formspree.io/f/mzbykblp" method="POST">
             <label for="name" class="sr-only">please type your name here</label>
             <input type="text" id="name" placeholder="Name">
             <label for="address" class="sr-only">please type your email address</label>
-            <input type="address" id="address" placeholder="Address">
+            <input type="email" name="_replyto" id="address" placeholder="Address">
             <label for="message" class="sr-only">please write message here</label>
-            <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-            <button>submit</button>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <button type="submit">submit</button>
           </form>
         </div>
-        <p class="arrow"><i class="fas fa-arrow-up"></i></p>
+        <p class="arrow"><a href="#home"><i class="fas fa-arrow-up"></i></a></p>
       </div>
     </section>
   </main>
@@ -154,6 +212,8 @@
   <footer>
     <p>Developed by Mao Kitamura</p>
   </footer>
-  
-</body>
+
+  <!-- Js file -->
+  <script src="app.js"></script>
+</body >
 </html>
